@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     //MARK: - PROPERTIES
-    
+
     //MARK: - BODY
     var body: some View {
         ZStack {
@@ -21,10 +21,15 @@ struct ContentView: View {
                     .background(Color.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
-                Spacer()
-                
-                FooterView()
-                    .padding(.horizontal)
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: 0) {
+                        FeaturedTabView()
+                            .frame(height: UIScreen.main.bounds.width / featuredtabViewRatio)
+                            .padding(.vertical, 20)
+                        FooterView()
+                            .padding(.horizontal)
+                    } // vstack
+                } // scroll
             } // vstack
             .background(colorBackground.ignoresSafeArea(.all, edges: .all))
         } // zstack

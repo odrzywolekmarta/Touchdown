@@ -23,6 +23,8 @@
 		2D269030297AC7BB00B936C9 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26902F297AC7BB00B936C9 /* UIApplicationExtension.swift */; };
 		2D269032297AE99800B936C9 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269031297AE99800B936C9 /* PlayerModel.swift */; };
 		2D269034297AE9C200B936C9 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269033297AE9C200B936C9 /* CodableBundleExtension.swift */; };
+		2D269038297AECAE00B936C9 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269037297AECAE00B936C9 /* FeaturedItemView.swift */; };
+		2D26903A297AEDC000B936C9 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269039297AEDC000B936C9 /* FeaturedTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		2D26902F297AC7BB00B936C9 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 		2D269031297AE99800B936C9 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		2D269033297AE9C200B936C9 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		2D269037297AECAE00B936C9 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		2D269039297AEDC000B936C9 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 				2D2690292978742600B936C9 /* FooterView.swift */,
 				2D26902B297AB86900B936C9 /* NavigationBarView.swift */,
 				2D26902D297AB96D00B936C9 /* LogoView.swift */,
+				2D269037297AECAE00B936C9 /* FeaturedItemView.swift */,
+				2D269039297AEDC000B936C9 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -250,7 +256,9 @@
 				2D26902A2978742600B936C9 /* FooterView.swift in Sources */,
 				2D26900729786D3A00B936C9 /* TouchdownApp.swift in Sources */,
 				2D269028297872B800B936C9 /* Constants.swift in Sources */,
+				2D26903A297AEDC000B936C9 /* FeaturedTabView.swift in Sources */,
 				2D269030297AC7BB00B936C9 /* UIApplicationExtension.swift in Sources */,
+				2D269038297AECAE00B936C9 /* FeaturedItemView.swift in Sources */,
 				2D26902C297AB86900B936C9 /* NavigationBarView.swift in Sources */,
 				2D269034297AE9C200B936C9 /* CodableBundleExtension.swift in Sources */,
 			);

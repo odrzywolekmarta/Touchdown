@@ -7,9 +7,12 @@
 
 import SwiftUI
 
-//COLOR
+// DATA
+let players: [PlayerModel] = Bundle.main.decode("player.json")
 
+// COLOR
 let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray4)
 
+let featuredtabViewRatio = 1.475
 
