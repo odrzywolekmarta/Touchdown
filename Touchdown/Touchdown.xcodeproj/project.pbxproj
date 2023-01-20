@@ -18,6 +18,9 @@
 		2D26901E29786EA600B936C9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D26901D29786EA600B936C9 /* README.txt */; };
 		2D269028297872B800B936C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269027297872B800B936C9 /* Constants.swift */; };
 		2D26902A2978742600B936C9 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2690292978742600B936C9 /* FooterView.swift */; };
+		2D26902C297AB86900B936C9 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26902B297AB86900B936C9 /* NavigationBarView.swift */; };
+		2D26902E297AB96D00B936C9 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26902D297AB96D00B936C9 /* LogoView.swift */; };
+		2D269030297AC7BB00B936C9 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26902F297AC7BB00B936C9 /* UIApplicationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		2D26901F2978700500B936C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2D269027297872B800B936C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2D2690292978742600B936C9 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		2D26902B297AB86900B936C9 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		2D26902D297AB96D00B936C9 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		2D26902F297AC7BB00B936C9 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				2D2690292978742600B936C9 /* FooterView.swift */,
+				2D26902B297AB86900B936C9 /* NavigationBarView.swift */,
+				2D26902D297AB96D00B936C9 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 		2D2690252978719400B936C9 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2D26902F297AC7BB00B936C9 /* UIApplicationExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -230,9 +239,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D26900929786D3A00B936C9 /* ContentView.swift in Sources */,
+				2D26902E297AB96D00B936C9 /* LogoView.swift in Sources */,
 				2D26902A2978742600B936C9 /* FooterView.swift in Sources */,
 				2D26900729786D3A00B936C9 /* TouchdownApp.swift in Sources */,
 				2D269028297872B800B936C9 /* Constants.swift in Sources */,
+				2D269030297AC7BB00B936C9 /* UIApplicationExtension.swift in Sources */,
+				2D26902C297AB86900B936C9 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
