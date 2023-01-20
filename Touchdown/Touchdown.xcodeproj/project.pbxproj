@@ -25,6 +25,10 @@
 		2D269034297AE9C200B936C9 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269033297AE9C200B936C9 /* CodableBundleExtension.swift */; };
 		2D269038297AECAE00B936C9 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269037297AECAE00B936C9 /* FeaturedItemView.swift */; };
 		2D26903A297AEDC000B936C9 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269039297AEDC000B936C9 /* FeaturedTabView.swift */; };
+		2D26903C297AF26C00B936C9 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26903B297AF26C00B936C9 /* CategoryModel.swift */; };
+		2D26903E297AF54900B936C9 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26903D297AF54900B936C9 /* CategoryItemView.swift */; };
+		2D269040297AFA2700B936C9 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26903F297AFA2700B936C9 /* CategoryGridView.swift */; };
+		2D269042297AFD0300B936C9 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269041297AFD0300B936C9 /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		2D269033297AE9C200B936C9 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		2D269037297AECAE00B936C9 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		2D269039297AEDC000B936C9 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		2D26903B297AF26C00B936C9 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		2D26903D297AF54900B936C9 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		2D26903F297AFA2700B936C9 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		2D269041297AFD0300B936C9 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +154,9 @@
 				2D26902D297AB96D00B936C9 /* LogoView.swift */,
 				2D269037297AECAE00B936C9 /* FeaturedItemView.swift */,
 				2D269039297AEDC000B936C9 /* FeaturedTabView.swift */,
+				2D26903D297AF54900B936C9 /* CategoryItemView.swift */,
+				2D26903F297AFA2700B936C9 /* CategoryGridView.swift */,
+				2D269041297AFD0300B936C9 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -154,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				2D269031297AE99800B936C9 /* PlayerModel.swift */,
+				2D26903B297AF26C00B936C9 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,7 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D269040297AFA2700B936C9 /* CategoryGridView.swift in Sources */,
 				2D26900929786D3A00B936C9 /* ContentView.swift in Sources */,
+				2D269042297AFD0300B936C9 /* SectionView.swift in Sources */,
+				2D26903C297AF26C00B936C9 /* CategoryModel.swift in Sources */,
 				2D26902E297AB96D00B936C9 /* LogoView.swift in Sources */,
 				2D269032297AE99800B936C9 /* PlayerModel.swift in Sources */,
 				2D26902A2978742600B936C9 /* FooterView.swift in Sources */,
@@ -259,6 +274,7 @@
 				2D26903A297AEDC000B936C9 /* FeaturedTabView.swift in Sources */,
 				2D269030297AC7BB00B936C9 /* UIApplicationExtension.swift in Sources */,
 				2D269038297AECAE00B936C9 /* FeaturedItemView.swift in Sources */,
+				2D26903E297AF54900B936C9 /* CategoryItemView.swift in Sources */,
 				2D26902C297AB86900B936C9 /* NavigationBarView.swift in Sources */,
 				2D269034297AE9C200B936C9 /* CodableBundleExtension.swift in Sources */,
 			);
