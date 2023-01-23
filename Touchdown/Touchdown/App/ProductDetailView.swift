@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ProductDetailView: View {
     //MARK: - PROPERTIES
+    @EnvironmentObject var shop: Shop
     
     //MARK: - BODY
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
             // navbar
             NavigationBarDetailView()
-                .padding(.horizontal, 15)            
+                .padding(.horizontal, 15)
             // header
             HeaderDetailView()
                 .padding(.horizontal)
@@ -33,7 +34,7 @@ struct ProductDetailView: View {
                     .padding(.bottom, 10)
                 // description
                 ScrollView(.vertical, showsIndicators: false) {
-                    Text(sampleProduct.description)
+                    Text(shop.selectedProduct?.description ?? sampleProduct.description)
                         .font(.system(.body, design: .rounded))
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.leading)
@@ -51,7 +52,8 @@ struct ProductDetailView: View {
                 .padding(.top, -105))
         } // vstack
         .zIndex(0)
-        .background(Color(red: sampleProduct.red, green: sampleProduct.green, blue: sampleProduct.blue))
+        .ignoresSafeArea(.all, edges: .bottom)
+        .background(Color(red: shop.selectedProduct?.red ?? sampleProduct.red, green: shop.selectedProduct?.green ?? sampleProduct.green, blue: shop.selectedProduct?.blue ?? sampleProduct.blue))
     }
 }
 
@@ -59,5 +61,6 @@ struct ProductDetailView: View {
 struct ProductDetailView_Previews: PreviewProvider {
     static var previews: some View {
         ProductDetailView()
+            .environmentObject(Shop())
     }
 }
