@@ -42,6 +42,8 @@ struct ProductDetailView: View {
                         .multilineTextAlignment(.leading)
                 } // scroll
                 // quantity + favourite
+                QuantityFavDetailView()
+                    .padding(.vertical, 10)
                 // add to cart
                 Spacer()
 
