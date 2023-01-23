@@ -15,10 +15,7 @@ struct ProductDetailView: View {
         VStack(alignment: .leading, spacing: 5) {
             // navbar
             NavigationBarDetailView()
-                .padding(.horizontal)
-                .padding(.top)
-                .padding(.top, UIApplication.shared.safeAreaInsets?.top)
-            
+                .padding(.horizontal, 15)            
             // header
             HeaderDetailView()
                 .padding(.horizontal)
@@ -54,7 +51,6 @@ struct ProductDetailView: View {
                 .padding(.top, -105))
         } // vstack
         .zIndex(0)
-        .ignoresSafeArea(.all, edges: .all)
         .background(Color(red: sampleProduct.red, green: sampleProduct.green, blue: sampleProduct.blue))
     }
 }
