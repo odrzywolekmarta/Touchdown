@@ -26,6 +26,7 @@ struct ProductDetailView: View {
             // detail top
             TopDetailView()
                 .padding(.horizontal)
+                .zIndex(1)
             
             // detail bottom
             VStack(alignment: .center, spacing: 0) {
@@ -39,13 +40,14 @@ struct ProductDetailView: View {
                 } // scroll
                 // quantity + favourite
                 // add to cart
+                Spacer()
+
             } // vstack
             .padding(.horizontal)
-            .background(Color.white)
-          
-            Spacer()
-            Text(sampleProduct.name)
+            .background(Color.white.clipShape(CustomShape())
+                .padding(.top, -105))
         } // vstack
+        .zIndex(0)
         .ignoresSafeArea(.all, edges: .all)
         .background(Color(red: sampleProduct.red, green: sampleProduct.green, blue: sampleProduct.blue))
     }
