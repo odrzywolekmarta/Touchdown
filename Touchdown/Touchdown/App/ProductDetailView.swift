@@ -28,10 +28,21 @@ struct ProductDetailView: View {
                 .padding(.horizontal)
             
             // detail bottom
-            // rat + sizes
-            // description
-            // quantity + favourite
-            // add to cart
+            VStack(alignment: .center, spacing: 0) {
+                // rat + sizes
+                // description
+                ScrollView(.vertical, showsIndicators: false) {
+                    Text(sampleProduct.description)
+                        .font(.system(.body, design: .rounded))
+                        .foregroundColor(.gray)
+                        .multilineTextAlignment(.leading)
+                } // scroll
+                // quantity + favourite
+                // add to cart
+            } // vstack
+            .padding(.horizontal)
+            .background(Color.white)
+          
             Spacer()
             Text(sampleProduct.name)
         } // vstack
