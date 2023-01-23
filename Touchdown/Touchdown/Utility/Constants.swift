@@ -26,3 +26,7 @@ var gridLayout: [GridItem] {
 }
 let featuredtabViewRatio = 1.475
 
+// STRINGS
+let sizes: [String] = ["XS", "S", "M", "L", "XL"]
+
+

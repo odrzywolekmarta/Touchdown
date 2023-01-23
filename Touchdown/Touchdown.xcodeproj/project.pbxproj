@@ -41,6 +41,7 @@
 		2D269056297E1B3900B936C9 /* TopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269055297E1B3900B936C9 /* TopDetailView.swift */; };
 		2D26905A297ECC0400B936C9 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D269059297ECC0400B936C9 /* CustomShape.swift */; };
 		2D26905C297ECE8000B936C9 /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26905B297ECE8000B936C9 /* RatingsSizesDetailView.swift */; };
+		2D26905E297EF9B100B936C9 /* QuantityFavDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26905D297EF9B100B936C9 /* QuantityFavDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		2D269055297E1B3900B936C9 /* TopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDetailView.swift; sourceTree = "<group>"; };
 		2D269059297ECC0400B936C9 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		2D26905B297ECE8000B936C9 /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
+		2D26905D297EF9B100B936C9 /* QuantityFavDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				2D269053297E1A9800B936C9 /* HeaderDetailView.swift */,
 				2D269055297E1B3900B936C9 /* TopDetailView.swift */,
 				2D26905B297ECE8000B936C9 /* RatingsSizesDetailView.swift */,
+				2D26905D297EF9B100B936C9 /* QuantityFavDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				2D269048297B07BA00B936C9 /* ProductItemView.swift in Sources */,
 				2D26905C297ECE8000B936C9 /* RatingsSizesDetailView.swift in Sources */,
 				2D26900729786D3A00B936C9 /* TouchdownApp.swift in Sources */,
+				2D26905E297EF9B100B936C9 /* QuantityFavDetailView.swift in Sources */,
 				2D269028297872B800B936C9 /* Constants.swift in Sources */,
 				2D269050297E189400B936C9 /* ProductDetailView.swift in Sources */,
 				2D26903A297AEDC000B936C9 /* FeaturedTabView.swift in Sources */,
